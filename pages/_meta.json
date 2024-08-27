@@ -1,9 +1,18 @@
-{
-  "index": {
+[
+  {
     "title": "Introduction",
-    "type": "page"
+    "name": "index"
   },
-  "setup": "Setup Guide",
-  "ios": "iOS Guide",
-  "android": "Android Guide"
-}
+  {
+    "title": "Setup Guide",
+    "name": "setup"
+  },
+  {
+    "title": "iOS Guide",
+    "name": "ios"
+  },
+  {
+    "title": "Android Guide",
+    "name": "android"
+  }
+]
