@@ -20,17 +20,18 @@ export default {
     defaultMenuCollapseLevel: 1,
     titleComponent: ({ title, type }) => <>{title}</>
   },
-  // Add the following configurations for meta description
   useNextSeoProps() {
     return {
-      titleTemplate: '%s – Boop SMS Business Cards',
-      description: "Boop SMS Business Cards - Your digital networking solution. Learn how to use Boop for efficient digital networking.",
+      titleTemplate: '%s | Boop SMS Business Cards',
+      defaultTitle: 'Boop SMS Business Cards Documentation',
+      description: "Learn how to use Boop SMS Business Cards for efficient digital networking. Your comprehensive guide to setup and usage.",
     }
   },
   head: (
     <>
-      <meta name="description" content="Boop SMS Business Cards - Your digital networking solution. Learn how to use Boop for efficient digital networking." />
-      <meta property="og:description" content="Boop SMS Business Cards - Your digital networking solution. Learn how to use Boop for efficient digital networking." />
+      <meta property="og:title" content="Boop SMS Business Cards Documentation" />
+      <meta name="description" content="Learn how to use Boop SMS Business Cards for efficient digital networking. Your comprehensive guide to setup and usage." />
+      <meta property="og:description" content="Learn how to use Boop SMS Business Cards for efficient digital networking. Your comprehensive guide to setup and usage." />
     </>
   ),
 }
