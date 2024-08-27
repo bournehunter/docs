@@ -1,18 +1,10 @@
-[
-  {
-    "title": "Introduction",
-    "name": "index"
+{
+  "index": "Introduction",
+  "--": {
+    "type": "separator",
+    "title": "Guides"
   },
-  {
-    "title": "Setup Guide",
-    "name": "setup"
-  },
-  {
-    "title": "iOS Guide",
-    "name": "ios"
-  },
-  {
-    "title": "Android Guide",
-    "name": "android"
-  }
-]
+  "setup": "Setup Guide",
+  "ios": "iOS Guide",
+  "android": "Android Guide"
+}
