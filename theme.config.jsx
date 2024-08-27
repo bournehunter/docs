@@ -25,13 +25,12 @@ export default {
       titleTemplate: '%s | Boop SMS Business Cards',
       defaultTitle: 'Boop SMS Business Cards Documentation',
       description: "Learn how to use Boop SMS Business Cards for efficient digital networking. Your comprehensive guide to setup and usage.",
+      openGraph: {
+        title: 'Boop SMS Business Cards Documentation',
+        description: "Learn how to use Boop SMS Business Cards for efficient digital networking. Your comprehensive guide to setup and usage.",
+        site_name: 'Boop SMS Business Cards'
+      }
     }
   },
-  head: (
-    <>
-      <meta property="og:title" content="Boop SMS Business Cards Documentation" />
-      <meta name="description" content="Learn how to use Boop SMS Business Cards for efficient digital networking. Your comprehensive guide to setup and usage." />
-      <meta property="og:description" content="Learn how to use Boop SMS Business Cards for efficient digital networking. Your comprehensive guide to setup and usage." />
-    </>
-  ),
+  head: null, // Remove the head property if it's not needed
 }
