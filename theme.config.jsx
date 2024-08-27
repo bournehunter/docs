@@ -32,5 +32,13 @@ export default {
       }
     }
   },
-  head: null, // Remove the head property if it's not needed
+  head: (
+    <>
+      <link
+        rel="icon"
+        type="image/x-icon"
+        href="https://raw.githubusercontent.com/Boop-Me-Inc/boop-nextjs/master/public/favicon.ico?token=GHSAT0AAAAAACUY6GZF2CLGHQ7CY2TUZUJOZWNTFCA"
+      />
+    </>
+  ),
 }
