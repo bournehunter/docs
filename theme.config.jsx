@@ -6,5 +6,9 @@ export default {
   docsRepositoryBase: 'https://github.com/bournehunter/docs/tree/main',
   footer: {
     text: '© 2024 Boop SMS Business Cards'
+  },
+  sidebar: {
+    defaultMenuCollapseLevel: 1,
+    titleComponent: ({ title, type }) => <>{title}</>
   }
 }
