@@ -1,0 +1,17 @@
+{
+  "name": "boop-sms-docs",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "@mdx-js/react": "^2.1.5",
+    "@mdx-js/loader": "^2.1.5",
+    "@next/mdx": "^12.3.1"
+  }
+}
