@@ -19,5 +19,18 @@ export default {
   sidebar: {
     defaultMenuCollapseLevel: 1,
     titleComponent: ({ title, type }) => <>{title}</>
-  }
+  },
+  // Add the following configurations for meta description
+  useNextSeoProps() {
+    return {
+      titleTemplate: '%s – Boop SMS Business Cards',
+      description: "Boop SMS Business Cards - Your digital networking solution. Learn how to use Boop for efficient digital networking.",
+    }
+  },
+  head: (
+    <>
+      <meta name="description" content="Boop SMS Business Cards - Your digital networking solution. Learn how to use Boop for efficient digital networking." />
+      <meta property="og:description" content="Boop SMS Business Cards - Your digital networking solution. Learn how to use Boop for efficient digital networking." />
+    </>
+  ),
 }
