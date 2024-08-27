@@ -1,5 +1,8 @@
 {
-  "index": "Introduction",
+  "index": {
+    "title": "Introduction",
+    "type": "page"
+  },
   "setup": "Setup Guide",
   "ios": "iOS Guide",
   "android": "Android Guide"
